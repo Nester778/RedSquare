@@ -1,0 +1,50 @@
+.body{
+    background: #fff;
+}
+
+.nav-bar
+{
+    background-color: #C3F535;
+}
+
+.nav-bar-text a{
+    color: #FFFFFF;
+}
+.nav-bar-text-item{
+    color: #FFFFFF;
+}
+
+.nav-bar-search input {
+    border: #FFFFFF;
+}
+
+.calc {
+    background: #C3F535;
+    box-shadow: 8px 8px 8px #c4c4c4;
+}
+.calc-screen{
+    background: #ADDA2F;
+}
+
+.calc-screen p{
+    color: #FFFFFF;
+}
+
+.btn{
+    background: #ADDA2F;
+    color: #FFFFFF;
+}
+
+
+.footer {
+
+    background: #000;
+}
+
+.changeTheme[data-theme="dark"] {
+    display: block;
+}
+
+.changeTheme[data-theme="light"] {
+    display: none;
+}

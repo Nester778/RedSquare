@@ -1,0 +1,94 @@
+.register-form{
+    width: 350px;
+    height: 450px;
+}
+
+.register-form-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    padding-top: 30px;
+    color: #fff;
+}
+
+.register-form-input
+{
+    padding-top: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.register-form-input input, button{
+    width: 200px;
+    height: 35px;
+    border-radius: 15px;
+    border-color: #4E601E;
+    background: #4E601E;
+}
+.register-form-input-login{
+    font-size: 28px;
+    padding-left: 20px;
+    color: #fff;
+}
+.register-form-input-login-label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 7px;
+}
+.register-form-input-password{
+    font-size: 28px;
+    padding-left: 20px;
+    color: #fff;
+}
+.register-form-input-login-password{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+.register-form-input-button{
+    margin-top: 30px;
+    border: #4E601E;
+    width: 200px;
+    height: 57px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #fff;
+}
+
+.register-form-input-button:hover {
+    filter: brightness(110%);
+}
+
+.register-form-input-button:active {
+    filter: brightness(90%);
+}
+
+.register-form-registration{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+    padding-top: 30px;
+    padding-left: 50px;
+}

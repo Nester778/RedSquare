@@ -1,0 +1,189 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+.page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 80vh;
+}
+
+.header, .page-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 70px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    position: relative;
+    width: 100%;
+    height: 70px;
+    left: 0px;
+    background-color: #C3F535;
+}
+
+.nav-bar-wrapper {
+    position: static;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nav-bar-logo {
+    padding-left: 15px;
+}
+
+.nav-bar-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+    .nav-bar-text a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+.nav-bar-text-item {
+    color: #FFFFFF;
+    padding-left: 47px;
+}
+
+.nav-bar-search {
+    padding-left: 30px;
+}
+
+.nav-bar-search-bar {
+}
+
+.nav-bar-search input {
+    width: 206px;
+    height: 32px;
+    border: #FFFFFF;
+    border-radius: 28px;
+}
+
+i.fa {
+    width: 32px;
+    height: 32px;
+    line-height: 26px;
+    text-align: center;
+    margin-right: -26px;
+    position: relative;
+    z-index: 1;
+    float: left;
+}
+
+    i.fa + input {
+        padding-left: 26px;
+    }
+
+.nav-bar-language {
+    padding-top: 18px;
+    padding-bottom: 14px;
+}
+
+.nav-bar-language-img {
+    padding-left: 39px;
+}
+
+.nav-bar-moon {
+    padding-left: 74px;
+}
+
+.nav-bar-menu-img {
+    padding-left: 59px;
+    padding-right: 15px;
+}
+
+.calc {
+    width: 1000px;
+    height: 580px;
+    background: #C3F535;
+    box-shadow: 8px 8px 8px #c4c4c4;
+    margin: 100px auto;
+    border-radius: 20px;
+}
+
+.calc-screen {
+    width: 1000px;
+    height: 150px;
+    background: #ADDA2F;
+    border-radius: 20px;
+    display: grid;
+    align-items: end;
+    margin-bottom: 50px;
+}
+
+    .calc-screen p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+        color: #FFFFFF;
+        margin: 0;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+
+.buttons {
+    display: grid;
+    grid-template-areas:
+        "sin rad deg C percent delet division"
+        "cos tan inv seven eight nine myltipy"
+        "log ln factorial four five six minus"
+        "pi e stepen one two three plus"
+        "root left right nulnul nul dot equal";
+    grid-gap: 30px;
+    justify-items: center;
+}
+
+.btn {
+    width: 82px;
+    height: 41px;
+    background: #ADDA2F;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+    .btn:hover {
+        filter: brightness(105%);
+    }
+
+    .btn:active {
+        filter: brightness(95%);
+    }
+
+.radius {
+    border-radius: 20px;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #000;
+}
