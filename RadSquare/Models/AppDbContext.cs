@@ -10,7 +10,7 @@ namespace RadSquare.Models
     public class AppDbContext : DbContext
     {
         public DbSet<User> users { get; set; }
-        //public DbSet<News> news { get; set; }
+        public DbSet<News> news { get; set; }
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
@@ -19,7 +19,7 @@ namespace RadSquare.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             //base.OnModelCreating(modelBuilder);
-            //modelBuilder.Entity<User>().HasData(
+            //modelBuilder.Entity<News>().HasData(
             //    new User[]
             //    {
             //    new User { Name = "Igor", Email = "igor@mail.com", Password = "igor123"},

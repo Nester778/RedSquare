@@ -1,8 +1,4 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-
-
+﻿
 <h3>Смартфоны</h3>
 
 <table>
@@ -15,17 +11,28 @@
 </table>
 
 <a id="" class="register-form-input-button" type="submit" asp-controller="Home" asp-action="Index">Войти</a>
-<div class="select">
-    <select name="months" id="months">
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
+<form method="post">
+    <div class="select">
+        <select name="First" id="months" >
+            <option value="грн">грн</option>
+            <option value="долл">долл</option>
+            <option value="юань">юань</option>
 
-    </select>
-    <select name="second" id="second">
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
+        </select>
+        <select name="Second" id="second" >
+            <option value="грн">грн</option>
+            <option value="долл">долл</option>
+            <option value="юань">юань</option>
 
-    </select>
-</div>
+        </select>
+        <p>
+            <label for="genre">Genre:</label>
+            <input type="text" name="genre" value="" />
+    </div>
+</form>
+
+@foreach (var item in Model)
+{
+    <div>@item</div>
+}
+

@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "News";
+}
+
+<h1>News</h1>
+
+@foreach (var item in Model)
+{
+    <div>@item.Id</div>
+    <div>@item.Title</div>
+    <div>@item.Content</div>
+    <div>@item.Create</div>
+}

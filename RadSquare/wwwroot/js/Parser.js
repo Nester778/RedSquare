@@ -8,14 +8,14 @@ function Parser(first, second) {
 }
 
     
-document.getElementById('second').addEventListener('change', function () {
-    let first = document.getElementById("months").value;
+document.getElementById('Second').addEventListener('change', function () {
+    let first = document.getElementById("First").value;
     let second = this.value;
     console.log(second * first);
     Parser(first, second);
 })
-document.getElementById('months').addEventListener('change', function () {
-    let second = document.getElementById("second").value;
+document.getElementById('First').addEventListener('change', function () {
+    let second = document.getElementById("Second").value;
     let first = this.value;
     console.log(second * first);
     Parser(first, second);
