@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "g7dPHM0u901EmiRQo1jNb758nEsDgiNiGRok3csfUvxXmLuUrLTuMDFPtphXev4vMpHCYGJ6gZDyT0pza5D9ZA==",
+  "dgSpecHash": "cS7um4kkwHfVWFcj+oTo/mK83jh73UiPDq+WjuBoKvGGGvI33/3l4zRVsGGKbPay7RM8Si6v4/5QCLCkwbnKRQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\anest\\source\\repos\\RadSquare\\RadSquare\\RadSquare.csproj",
+  "projectFilePath": "C:\\Users\\anest\\source\\repos\\RadSquare\\RadSquare\\RedSquare.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anest\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\anest\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

@@ -8209,9 +8209,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\anest\\source\\repos\\RadSquare\\RadSquare\\RadSquare.csproj",
-      "projectName": "RadSquare",
-      "projectPath": "C:\\Users\\anest\\source\\repos\\RadSquare\\RadSquare\\RadSquare.csproj",
+      "projectUniqueName": "C:\\Users\\anest\\source\\repos\\RadSquare\\RadSquare\\RedSquare.csproj",
+      "projectName": "RedSquare",
+      "projectPath": "C:\\Users\\anest\\source\\repos\\RadSquare\\RadSquare\\RedSquare.csproj",
       "packagesPath": "C:\\Users\\anest\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\anest\\source\\repos\\RadSquare\\RadSquare\\obj\\",
       "projectStyle": "PackageReference",
